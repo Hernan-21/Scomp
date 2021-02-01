@@ -93,7 +93,7 @@ main{
 .main-options img{
    position: absolute;
    top: -65px;
-   left: 15vw;
+   left: 30%;
    max-width: 60%;
 }
 
@@ -127,15 +127,14 @@ main{
 .titular h2{
     font-size: 28px;
     line-height: 55px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
     margin-left: 70px;
     color: #3FA3EF;
     font-weight: bold;
     text-align: left !important;
 }
 
-.hero{
+.main-pension{
     background: url(img/hero-bg.svg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -162,12 +161,14 @@ main{
     padding-bottom: 20px;
 }
 
-.hero a{
+.main-pension a{
     text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
     color: #fff;
 }
 
-.hero img{
+.main-pension img{
     width: 100%;
 }
 /*  position: absolute;
@@ -186,6 +187,36 @@ main{
 
 .icon-cont .item{
     flex-wrap: wrap;
+}
+
+
+/*pagina ofertas*/
+.main-ofertas{
+    background: url(img/bg-ofertas.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    min-height: 60vh;
+}
+
+.main-ofertas span{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}
+
+.titular-f h2{
+    font-size: 28px;
+    line-height: 55px;
+    margin-bottom: 15px;
+    margin-left: 70px;
+    color: #F5AF18;
+    font-weight: bold;
+    text-align: left !important;
 }
 
 
