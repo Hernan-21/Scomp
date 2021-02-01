@@ -77,7 +77,7 @@ main{
     margin-top: 20vh;
 }
 
-/*esos estilos defines la base del contenido en pencion y ofertas*/
+/*esos estilos defines la base del contenido de la pagina principal*/
 .main-options{
     margin-top: 110px;
 }
@@ -127,6 +127,7 @@ main{
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 70px;
+    margin-right: 40px;
     color: #3FA3EF;
     font-weight: bold;
     text-align: left !important;
@@ -174,27 +175,26 @@ main{
 .list-options{
     margin-top: 20px;
     width: 100%;
-    border-bottom: 1px solid #ccc;
 }
 
 .icon-cont{
     display: flex;
+    border-bottom: 1px solid #ccc;
 }
 
 .icon-cont .item{
     flex-wrap: wrap;
 }
 
-.icon-cont .item p{
-    font-size: 14px;
-    font-weight: 400;
-    text-align: left;
-}
-
 
 /*Responsive*/
 
-
+@media (min-width: 1200px) { 
+    .hero img{
+        width: 400px;
+        height: 450px;
+    }
+ }
 
 
 
