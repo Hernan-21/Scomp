@@ -122,12 +122,14 @@ main{
 /*pagina-pension*/
 
 .titular h2{
-    font-size: 52px;
+    font-size: 28px;
     line-height: 55px;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left: 70px;
     color: #3FA3EF;
     font-weight: bold;
+    text-align: left !important;
 }
 
 .hero{
@@ -139,11 +141,11 @@ main{
     -o-background-size: cover;
     background-size: cover;
     width: 100%;
-    min-height: 70vh;
+    min-height: 60vh;
 }
 
 .tab-content{
-    padding: 15vh 30px;
+    padding: 15vh 70px;
     text-align: left;
     display: block;
     margin: 0 auto;
@@ -162,9 +164,37 @@ main{
     color: #fff;
 }
 
+.hero img{
+    width: 100%;
+}
+/*  position: absolute;
+    right: 10%;
+    bottom: 30%;*/
+
 .list-options{
     margin-top: 20px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
 }
+
+.icon-cont{
+    display: flex;
+}
+
+.icon-cont .item{
+    flex-wrap: wrap;
+}
+
+.icon-cont .item p{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+/*Responsive*/
+
+
 
 
 
