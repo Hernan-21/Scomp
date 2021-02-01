@@ -227,6 +227,21 @@ main{
     padding: 30px;
 }
 
+.pasos-box p:nth-child(1){
+    font-size: 14px;
+    font-weight: bold;
+    color: #3FA3EF;
+}
+
+.img-bg-test{
+    background: #3FA3EF;
+    padding:30px;
+    border-radius: 50%;
+}
+
+.middle-colum{
+    text-align: center;
+}
 
 
 /*vertical line beatween icons*/
