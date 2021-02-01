@@ -188,6 +188,52 @@ main{
 .icon-cont .item{
     flex-wrap: wrap;
 }
+.pasos{
+    margin-top: 20px;
+}
+
+.pasos p{
+    font-size: 18;
+    font-weight: 300;
+    color: #000;
+}
+
+.pasos ul{
+    list-style-image: url('img/arrow.svg');
+}
+.pasos ul li{
+    font-size: 24px;
+    font-weight: bold;
+    color: #3FA3EF;
+}
+
+.pasos .pasos-box{
+    border: 1px solid #3FA3EF;
+    border-radius: 5px;
+}
+
+.pasos .pasos-box p {
+    margin-right: 135px;
+}
+
+.pasos .second-icon{
+    background: #3FA3EF;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    padding: 30px;
+}
+
+
+
+/*vertical line beatween icons*/
+.vl{
+   border-left: 3px solid #3FA3EF;
+   height: 100px;
+}
 
 
 /*pagina ofertas*/
