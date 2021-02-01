@@ -216,10 +216,10 @@ main{
     margin-right: 135px;
 }
 
-.pasos .second-icon{
+.pasos .bg-icon{
     background: #3FA3EF;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     text-align: center;
     line-height: 100px;
