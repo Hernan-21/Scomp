@@ -56,28 +56,36 @@ main{
     width: 600px;
     height: 420px;
     background-color: rgba(63, 163, 239, .9);
-    margin-right: 20px;
-    position: relative;
-    display: inline;
 }
+/*.pension{
+    background: url(img/pencion-box-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+}*/
 .pension div{
     text-align: center;
     margin-top: 20vh;
 }
+
+/*columna ofertas*/
 .ofertas{
     width: 600px;
     height: 420px;
     background-color: rgba(245, 175, 24, .9);
-    margin-left: 20px;
-    position: relative;
-    display: inline;
+
 }
 .ofertas div{
     text-align: center;
     margin-top: 20vh;
 }
 
-/*esos estilos defines la base del contenido de la pagina principal*/
+/*defines la base del contenido dentro de las columnas en home*/
 .main-options{
     margin-top: 110px;
 }
@@ -89,21 +97,16 @@ main{
    max-width: 60%;
 }
 
+
 .main-options a{
     text-decoration: none;
     font-size: 21px;
     font-weight: 400;
-    color: #000;
-    line-height: 40px;
-}
-.main-options a span{
     color: #fff;
-    font-weight: 600;
-    font-size: 28px;
-    padding: 5px;
-    border: 1px #fff solid;
+    padding: 10px;
+    border: 1px solid #fff;
 }
-.main-options a span:hover{
+.main-options a:hover{
     color: #3FA3EF;
     background-color: #fff;
 }
@@ -127,7 +130,6 @@ main{
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 70px;
-    margin-right: 40px;
     color: #3FA3EF;
     font-weight: bold;
     text-align: left !important;
